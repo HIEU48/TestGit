@@ -1,0 +1,22 @@
+Git Setup
+
+Install Git locally,use command version. GitBash
+
+Github.com
+
+Git Command examples to run in git bash tool
+
+path = C:\ Git
+cd /c = change directory
+git config -- global user.name "HIEU48"
+git config -- global user.email test@hotmail.com
+go backdirectory cd ..
+ls = dir
+git init = initialise a new working directory locally
+git remote add origin https://github.com/HIEU48/FirstProject.git = set local directory to match with directory in github
+git clone 'https://github.com/HIEU48/FirstProject.git' = get latest version of project from github
+git add test.txt
+git add -f ./src/* = add folders and sub-folders
+git commit -m 'Initial files creation' = check changes in local repository
+git status
+git push -u origin master = check in changes in github
