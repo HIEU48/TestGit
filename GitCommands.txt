@@ -16,6 +16,8 @@ git init = initialise a new working directory locally
 git remote add origin https://github.com/HIEU48/FirstProject.git = set local directory to match with directory in github
 git clone 'https://github.com/HIEU48/FirstProject.git' = get latest version of project from github
 git add test.txt
+git rm test.txt = remove a file
+git rm FirstProject = remove a folder
 git add -f ./src/* = add folders and sub-folders
 git commit -m 'Initial files creation' = check changes in local repository
 git status
