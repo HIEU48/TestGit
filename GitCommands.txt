@@ -19,4 +19,5 @@ git add test.txt
 git add -f ./src/* = add folders and sub-folders
 git commit -m 'Initial files creation' = check changes in local repository
 git status
+git pull https://github.com/HIEU48/FirstProject.git
 git push -u origin master = check in changes in github
